@@ -1,0 +1,14 @@
+.block{
+    width: 150px;
+    height: 150px;
+    background: bisque;
+    margin: 50px;
+    user-select:none;
+}
+.block1{
+    width: 150px;
+    height: 150px;
+    background: bisque;
+    margin: 50px;
+    /* user-select:none; */
+}
