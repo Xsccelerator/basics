@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+.round-close{
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+    border-radius: 100%;
+    background: red;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    /* line-height: 24; */
+
+}
+.block-modal-test{  /* Основной блок */
+    width: 250px;    /* Ширина одного слайда */
+    height: 340px;
+    border: 1px solid rgb(157, 187, 183);
+    padding: 0;
+    margin:100px auto;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.form-slider{   /* Слайдер блок */
+    width: 500px;   /* Ширина всех слайдов */
+    height: 340px;
+    background: #aaa;
+    transition: all ease .3s;
+    
+}
+.left-50{           /* Первый слайд */
+    width: 50%;
+    min-height: 50px;
+    float: left;
+    background: #ff3;
+    padding: 10px;
+}
+.right-50{
+    padding: 10px;           /* Второй слайд */
+    width: 50%;
+    min-height: 50px;
+    max-height: 340px;
+    overflow-y: scroll;
+    float: left;
+    background: rgb(51, 255, 194);
+}
